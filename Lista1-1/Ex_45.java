@@ -12,7 +12,7 @@ public class Ex_45
 			
 			if (i % 2 == 0)
 			{
-				total -= (i/pot);=
+				total -= (i/pot);
 			} 
 			
 			else
