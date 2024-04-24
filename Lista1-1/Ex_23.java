@@ -1,9 +1,12 @@
 
 import javax.swing.JOptionPane;
 
-public class _Lt01_23 {
+public class Ex_23 
+{
     
-    public static void main (String args []) {
+    public static void main (String args []) 
+    {
+        
         int a, b, c, d;
         
         a = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1: "));
@@ -11,20 +14,26 @@ public class _Lt01_23 {
         c = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 3: "));
         d = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 4: "));
         
-        if (d < a) {
+        if (d < a) 
+        {
             JOptionPane.showMessageDialog(null, "Ordem: " + d + ", " + a + ", " + b + ", " + c);
-            
-        } else if ((d > a) && (d < b)) {
+        } 
+        
+        else if ((d > a) && (d < b)) 
+        {
             JOptionPane.showMessageDialog(null, "Ordem: " + a + ", " + d + ", " + b + ", " + c);
-            
-        } else if ((d > b) && (d < c)) {
+        } 
+        
+        else if ((d > b) && (d < c))
+        {
              JOptionPane.showMessageDialog(null, "Ordem: " + a + ", " + b + ", " + d + ", " + c);
-            
-        } else if (d > c) {
+        } 
+        
+        else if (d > c)
+        {
              JOptionPane.showMessageDialog(null, "Ordem: " + a + ", " + b + ", " + c + ", " + d);
-            
         }
         
-        
     }
+    
 }
