@@ -1,8 +1,12 @@
 
 import java.util.Scanner;
 
-public class Lt_1_Ex_06 {
-    public static void main (String args []) {
+public class Lt_1_Ex_06
+{
+    
+    public static void main (String args []) 
+    {
+        
         double x, y, z;
         
         Scanner ler = new Scanner (System.in);
@@ -14,10 +18,13 @@ public class Lt_1_Ex_06 {
         y = ler.nextDouble();
         
         System.out.println("Conteúdo enviado de x: " + x + ", y: " + y);
+        
         z = x;
         x = y;
         y = z;
         
         System.out.println("Conteúdo atual de x: " + x + ", y: " + y);
+        
     }
+    
 }
