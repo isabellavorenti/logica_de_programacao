@@ -1,1 +1,1 @@
-Este arquivo contém exercícios de lógica em Java finalizados.
+Este arquivo contém exercícios de lógica feitos em Java.
