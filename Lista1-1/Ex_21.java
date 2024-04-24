@@ -1,9 +1,12 @@
 
 import javax.swing.JOptionPane;
 
-public class _Lt01_21 {
+public class Ex_21 
+{
     
-    public static void main (String args []) {
+    public static void main (String args [])
+    {
+        
         double n1, n2, n3, n4, media;
         
         n1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a primeira nota: "));
@@ -11,17 +14,23 @@ public class _Lt01_21 {
         n3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a terceira nota: "));
         n4 = Double.parseDouble(JOptionPane.showInputDialog("Digite a quarta nota: "));
         
-        media = (n1 + n2 + n3 + n4) / 4;
+        media = ((n1 + n2 + n3 + n4) / 4);
         
-        if (media >= 6){
+        if (media >= 6)
+        {
             JOptionPane.showMessageDialog(null, "APROVADO");
-            
-        } else if ((media >= 3) && (media < 6)) {
+        } 
+        
+        else if ((media >= 3) && (media < 6)) 
+        {
             JOptionPane.showMessageDialog(null, "EXAME");
-       
-        } else if (media < 3) {
+        } 
+        
+        else if (media < 3) 
+        {
             JOptionPane.showMessageDialog(null, "RETIDO");
-                
-            }
+        }
+        
     }
+    
 }
